@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="style
+    
+    sheet" href=CSS\athleteBase.css>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <title>AthleteBase</title>
+
+
+  <body>
+
+ <!-- Nav-Bar -->    
+    <div class="topnav">
+      <a href="index.html" href="#home">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="athlete.html">Athlete</a>
+      <a href="contact.html">Contact</a>
+
+      <nav class="navbar navbar-black bg-black">
+          <a class="navbar-brand"></a>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" >
+            <searchBtn type="submit"><i class="fa fa-search"></i></searchBtn>          
+          </form>
+
+            <div class="login-container">
+              <form action="/action_page.php">
+              <button type="submit">Sign In</button>
+              </form>
+            </div>
+          </nav>   
+    </div>
+    
+
+ <!-- Logo -->
+    <p>
+      <a href="https://index.html">
+        <img src="Images\JohnLogo.jpg" alt="AthleteBase Logo" width="90%" height="40%">
+        </a>
+        </p>  
+      </div>  
+
+
+
+<!-- Slide Show -->
+      <div class="flex">
+          <div class="form-width">
+     <section>
+      <left>
+          <img class="mySlides" src="Images/Super-Rugby.jpg" width="100%" height="580">
+      </left>
+      </a>
+      <left>
+          <img class="mySlides" src="Images\AllBlacks_2017_2.png" width="100%" height="580">
+      </left>
+      </a>
+      <left>
+        <img class="mySlides" src="Images\BlackFernsWC.jpg" width="100%" height="580">
+      </left>
+      </a>
+      <left>
+        <img class="mySlides" src="Images\JohnElder.jpg" width="100%" height="580">
+      </left>
+      </a>
+  </section>
+
+ 
+   <!-- Automatic Slideshow - change image every 3 seconds -->
+  <script>
+      var myIndex = 0;
+      carousel();
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) { myIndex = 1 }
+          x[myIndex - 1].style.display = "block";
+          setTimeout(carousel, 3000);
+      }
+  </script>
+</div>  
+
+
+ <!-- Register Form -->
+    <div class="form-width">
+      
+<form action="action_page.php" style="border:5px solid black">
+    <div class="container">
+      <h1>Register</h1>
+      
+      <hr>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <label for="psw-repeat"><b>Confirm Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+  
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+  
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+
+<section>
+  <center>
+      <br>      
+    <h1>WELCOME TO ATHLETEBASE</h1>
+     <h4>#1 in Human Performance Software</h4>
+      <content2>
+          <br> <h5>One place where you can store all of your data for coaches, scientists, athletes, and managers.  
+          <br>There is simply no limit to the types of data you can store including videos, images, documents and even raw files technologies like heart rate, GPS and sensors. 
+          <br>Store everything from administrative profiles, medical information, fitness tests and training programs through to coaching data and performance analysis.</h5>
+          <br>
+          <br>
+
+      </content2>
+  </center>
+</section>
+
+<!-- Footer -->
+<section id="footer">
+    <div class="container">
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <ul class="list-unstyled quick-links">
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>My Account</a></li>
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Athlete</a></li>
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>News</a></li>                           
+          </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <ul class="list-unstyled quick-links">
+              <li><a href="http://www.nzrugby.co.nz/"><i class="fa fa-angle-double-right"></i>NZRU</a></li>
+              <li><a href="https://www.world.rugby/?lang=en"><i class="fa fa-angle-double-right"></i>WRU</a></li>
+              <li><a href="https://ruckscience.com/programs/"><i class="fa fa-angle-double-right"></i>Rugby Programs</a></li>
+            
+              <center><li><buttonfb><a href="https://www.facebook.com" class="fa fa-facebook"></a></buttonfb></li></center>       
+           </ul>
+          </div>     
+            
+          <div class="col-xs-12 col-sm-4 col-md-4">              
+            <ul class="list-unstyled quick-links">
+              <li><a href="policies.html;"><i class="fa fa-angle-double-right"></i>Policies</a></li>
+              <li><a href="FAQ.html"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+              <li><a href="https://www.rugbyworldcup.com/?lang=en"><i class="fa fa-angle-double-right"></i>Rugby World Cup</a></li>
+            </ul>
+          </div>
+        </div>
+
+     
+    </div>
+  </section>
+  <!-- ./Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+  </body>
+</html>
+
+
+  
